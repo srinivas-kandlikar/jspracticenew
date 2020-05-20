@@ -1,0 +1,10 @@
+var dob = prompt('please enter year of birth?');
+var presentyear = 2020;
+var age = presentyear - dob;
+console.log('your age is '+' '+ age);
+var totalmonths = 12 * age;
+console.log('total months' +' '+ totalmonths);
+var days = totalmonths *30; 
+console.log('total days' +' '+ days);
+var hours = days *24;
+console.log(typeof +' '+ 'total hours' +' '+ hours);
